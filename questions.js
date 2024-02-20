@@ -1,26 +1,29 @@
 export default [
   {
-    question: "Qual é o sobrenome do higor",
+    question: "Qual o nome do protagonista de God Of War?",
     answers: [
-      { option: "daocone", correct: false },
-      { option: "panetone", correct: false },
-      { option: "darone", correct: true },
+      { option: "1 - Poseidon", correct: false },
+      { option: "2 - Cleiton", correct: false },
+      { option: "3 - Zeus", correct: false },
+      { option: "4 - Kratos", correct: true },
     ],
   },
   {
-    question: "O higor da o cone?",
+    question: "Qual Desses jogos é o mais popular?",
     answers: [
-      { option: "sim", correct: true },
-      { option: "talvez", correct: false },
-      { option: "não", correct: false },
+      { option: "1 - Minecraft", correct: true },
+      { option: "2 - Dota2", correct: false },
+      { option: "3 - Fortnite", correct: false },
+      { option: "4 - CS:GO", correct: false },
     ],
   },
   {
-    question: "Qual veiculo é mais zika?",
+    question: "Qual a cor da calça do mario?",
     answers: [
-      { option: "scania", correct: true },
-      { option: "miliduke", correct: false },
-      { option: "tiger 800", correct: false },
+      { option: "1 - Vermelha", correct: true },
+      { option: "2 - Roxa", correct: false },
+      { option: "3 - Azul", correct: false },
+      { option: "4 - Verde 800", correct: false },
     ],
   },
   {
@@ -28,6 +31,7 @@ export default [
     answers: [
       { option: "sem duvidas", correct: true },
       { option: "sim", correct: false },
+      { option: "talvez", correct: false },
       { option: "claro", correct: false },
     ],
   },
