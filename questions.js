@@ -1,34 +1,34 @@
 export default [
   {
-    question: "Quanto é 1 + 2?",
+    question: "Qual é o sobrenome do higor",
     answers: [
-      { option: "3", correct: true },
-      { option: "2", correct: false },
-      { option: "4", correct: false },
+      { option: "daocone", correct: false },
+      { option: "panetone", correct: false },
+      { option: "darone", correct: true },
     ],
   },
   {
-    question: "Quanto é 5 x 2?",
+    question: "O higor da o cone?",
     answers: [
-      { option: "9", correct: false },
-      { option: "10", correct: true },
-      { option: "11", correct: false },
+      { option: "sim", correct: true },
+      { option: "talvez", correct: false },
+      { option: "não", correct: false },
     ],
   },
   {
-    question: "Quanto é 10 x 8?",
+    question: "Qual veiculo é mais zika?",
     answers: [
-      { option: "800", correct: false },
-      { option: "90", correct: false },
-      { option: "80", correct: true },
+      { option: "scania", correct: true },
+      { option: "miliduke", correct: false },
+      { option: "tiger 800", correct: false },
     ],
   },
   {
-    question: "Quanto é 7 x 7?",
+    question: "O brunão é o cara?",
     answers: [
-      { option: "70", correct: false },
-      { option: "56", correct: false },
-      { option: "49", correct: true },
+      { option: "sem duvidas", correct: true },
+      { option: "sim", correct: false },
+      { option: "claro", correct: false },
     ],
   },
 ];

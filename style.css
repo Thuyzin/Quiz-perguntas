@@ -83,3 +83,48 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+.Menu_cabecalho{
+  color: white;
+  display: inline-flex;
+  
+  
+  /*right: 0;
+  top: 0;*/
+  }
+  
+  .Menu_cabecalho li a{
+      margin-left: 50px;
+      
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      font-family: "Press Start 2P", system-ui;
+      text-decoration: none;
+      color: black;
+  }
+  
+  
+  .Menu_cabecalho a:hover{
+  
+      border-width: 4px;
+      border-bottom: solid;
+      border-image: linear-gradient(to right, rgb(255, 8, 8), rgb(255, 161, 21), rgb(255, 232, 24)) 1;
+      vertical-align: top;
+      display: flex;
+  }
+  
+  .icones_menu{
+      max-width: 60px;
+      margin-bottom: 10px;
+  }
+
+  .cor_fundo{
+    background: black;
+}
+
+.subir{
+  top: 0px;
+  position: relative;
+}
